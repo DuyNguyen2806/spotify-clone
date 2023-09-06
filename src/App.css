@@ -27,7 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.player{
+  background-color: #0f172a !important ;
+  height: 6rem;
 
+}
+.rhap_time rhap_current-time{
+  color: white;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +42,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+::selection {
+  background-color: transparent;
+  color: turquoise;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
